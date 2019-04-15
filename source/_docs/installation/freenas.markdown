@@ -48,8 +48,9 @@ Install Home Assistant itself:
 ```bash
 # su homeassistant
 % cd /usr/local/share/homeassistant
+% python3.7 -m venv .
 % source ./bin/activate.csh
-% virtualenv -p python3.7 .
+% python3.7 -m pip install wheel
 % pip3 install homeassistant
 % deactivate
 % exit
